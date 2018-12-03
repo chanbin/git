@@ -1,6 +1,6 @@
 # git 사용법
 
-git init 으로 새로운 로컬저장소 만들기
+git init 으로 새로운 로컬저장소 만들기\
 git remote add <원격지이름> <원격서버주소>.git
 git remote add origin https://github.com/chanbin/xxx.git
 
