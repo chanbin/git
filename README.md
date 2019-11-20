@@ -22,8 +22,8 @@ git clone 은 깃헙에서 로컬로 가져오기
 git init 과 git remote add <원격지이름> <원격서버주소>.git을 해야한다\
 [추가] git config --global user.email "you@example.com"로 계정 설정을 해야한다.
 
-git rm file.txt\
-git commit -m "remove file.txt"\
-git push <원격지> <브랜치>
+git rm file.txt 파일 삭제\
+git commit -m "remove file.txt" 커밋\
+git push <원격지> <브랜치> 푸시
 
-git rm --cached file.txt => 레포에서만 지우기, 로컬에는 남음(나중에는 gitignore 파일에 설정해야 )\
+git rm --cached file.txt => 레포에서만 지우기, 로컬에는 남음(나중에는 gitignore 파일에 설정해야 편함)\
