@@ -18,6 +18,10 @@ git push origin master
 
 git clone 은 깃헙에서 로컬로 가져오기
 
+clone 후 pull로 병합 할 때 fatal: refusing to merge unrelated histories\
+git pull origin master --allow-unrelated-histories
+
+
 # 파일 지우기
 git init 과 git remote add <원격지이름> <원격서버주소>.git을 해야한다\
 [추가] git config --global user.email "you@example.com"로 계정 설정을 해야한다.
