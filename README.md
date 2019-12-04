@@ -7,7 +7,7 @@ git remote add origin https://github.com/chanbin/xxx.git
 git add <파일 이름> *로 한번에 인덱스에 넣을 수 있다\
 git commit -m "설명" 인덱스에서 헤드(로컬최종장소)로 넘긴다\
 git push <원격지> <브랜치> 헤드내용이 깃헙으로 올라감\
-git push -f <원격지> <브랜치> push 실패 시, 강제로 push\
+git push -f <원격지> <브랜치> push 실패 시, 강제로 push (local로 git clone시 README.md 파일이 있으면 push가 안됨)\
 git push origin master
 
 git rm -rf <Directory> 레포에서 디렉터리 지우기\
