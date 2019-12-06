@@ -32,3 +32,9 @@ git commit -m "remove file.txt" 커밋\
 git push <원격지> <브랜치> 푸시
 
 git rm --cached file.txt => 레포에서만 지우기, 로컬에는 남음(나중에는 gitignore 파일에 설정해야 편함)\
+
+jekyll new [web-site]\
+gem install bundler\
+bundle install\
+bundle exec jekyll build\
+bundle exec jekyll serve\
