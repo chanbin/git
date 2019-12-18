@@ -23,7 +23,7 @@
 ```
 <br>
 
-<중요!>깃허브 `홈페이지`에서 코드 수정을 했다면, 수정한 내용을 반드시 로컬 폴더로 가져와야한다.<br>git pull origin master
+* <중요!>깃허브 `홈페이지`에서 코드 수정을 했다면, 수정한 내용을 반드시 로컬 폴더로 가져와야한다.<br>git pull origin master
 
 ```bash
 ## 파일 생성 또는 수정, 삭제 후 git에 올리기
@@ -47,11 +47,14 @@
 ##마크다운(markdown, md)파일 작성하기
 layout: 게시글들의 레이아웃을 명시, _layouts 폴더 안에 있는 파일 이름으로 해야한다.
 title: 게시글의 제목
-categories 혹은 tags: 템플릿별로 존재하지 않기도 함. 복수의 categories, tags를 사용하려면 ['1', '2']이렇게 해야한다.
+categories 혹은 tags: 템플릿별로 존재하지 않기도 함. 복수의 categories, tags를 사용하려면 [1, 2]이렇게 해야한다.
 
 나머지 기본적인 markdown 문법은 아래를 참고하세요
 https://heropy.blog/2017/09/30/markdown/
 ```
+* 오늘 날짜로 게시글을 작성했는데 아무리 기다려도 적용되지 않는다면
+* `_config.yml`파일에 `future:true`문구를 아무곳에나 작성해준다.
+
 
 # 잡하단 것들
 
