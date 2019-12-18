@@ -9,7 +9,7 @@
    (xxx-master폴더 안의 내용만 풀어주세요)
 5. cmd창을 켜고, 해당 폴더로 이동
 6. git init
-7. git remote add origin <깃허브repository주소>.git\
+7. git remote add origin <깃허브repository주소>.git
 8. git config --global user.email "<본인깃헙계정 로그인아이디>"
 
 ## 기본 설정 - 기존 프로젝트가 있을 때(예지)
@@ -17,7 +17,7 @@
 2. 바탕화면에 새로운 폴더 만들기
 3. cmd창을 켜고, 해당 폴더로 이동
 4. git init
-5. git remote add origin <깃허브repository주소>.git\
+5. git remote add origin <깃허브repository주소>.git
 6. git config --global user.email "<본인깃헙계정 로그인아이디>"
 7. git pull origin master --> 저장소에 내용을 로컬로 가져오기
 ```
@@ -31,11 +31,27 @@
 2. git add *
 3. git commit -m "본인이 하고 싶은 코멘트"
 4. git push origin master
-
 ```
 
 # Jekyll
+```bash
+* _config.yml: 페이지 설정파일, 타이틀, 계정 주소등을 설정
+* 최상위 폴더의 index.html: 첫화면을 보여주는 파일
+* _data: author, tag등을 설정하는 파일이 들어있다.
+* _include: 페이지에 들어갈 컴포넌트들이 있다.
+* _layouts: 컴포넌트들을 조합하여 페이지의 기본틀을 만들어 놓은 파일들이 있다.
+* _posts: md파일로 게시글을 작성할 수 있다. 파일명은 `yyyy-mm-dd-제목.md`로 설정해야한다.
+* assets: css, img, js파일들이 있다. 아직 잘 모른다면 img폴더만 사용하셈!
+            img 폴더에는 웹페이지에서 사용하는 모든 이미지들이 들어있다.
+            
+##마크다운(markdown, md)파일 작성하기
+layout: 게시글들의 레이아웃을 명시, _layouts 폴더 안에 있는 파일 이름으로 해야한다.
+title: 게시글의 제목
+categories 혹은 tags: 템플릿별로 존재하지 않기도 함. 복수의 categories, tags를 사용하려면 ['1', '2']이렇게 해야한다.
 
+나머지 기본적인 markdown 문법은 아래를 참고하세요
+https://heropy.blog/2017/09/30/markdown/
+```
 
 # 잡하단 것들
 
